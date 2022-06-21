@@ -1,4 +1,4 @@
-# PyVistaCaompat.jl
+# PyVistaCompat.jl
 
 This Package provides a simple interface with the Python package [PyVista](https://www.pyvista.org/). 
 It instantiates a `pyvista` object as a safe constant in global namespace and a few convinience functions for getting and setting data on a Pyvista Polydata object
