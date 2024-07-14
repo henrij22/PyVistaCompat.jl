@@ -1,4 +1,5 @@
 # PyVistaCompat.jl
+[![CI](https://github.com/henrij22/PyVistaCompat.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/henrij22/PyVistaCompat.jl/actions/workflows/CI.yml)
 
 This Package provides a simple interface with the Python package [PyVista](https://www.pyvista.org/). 
 It instantiates a `pyvista` object as a safe constant in the global namespace and a few convenience functions for getting and setting data on a Pyvista Polydata object
