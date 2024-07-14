@@ -1,7 +1,8 @@
 name = "PyVistaCompat"
 uuid = "402afd0f-a347-4f14-ad4c-abedc99e1684"
 authors = ["henrij22 <96132706+henrij22@users.noreply.github.com>"]
-version = "0.1.0"
+version = "0.1.1"
 
 [deps]
 PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"

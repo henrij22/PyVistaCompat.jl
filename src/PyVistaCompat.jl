@@ -3,7 +3,7 @@ __precompile__() # this module is safe to precompile
 module PyVistaCompat
 using PyCall
 
-const pyvista  = PyNULL()
+const pyvista = PyNULL()
 
 function __init__()
     copy!(pyvista, pyimport_conda("pyvista", "pyvista"))
@@ -27,7 +27,6 @@ function __init__()
         return grid.cell_data[name]
     """
 end
-
 
 
 addPointData(grid::PyObject, d, name::AbstractString) = py"addPointData"(grid, d, name)
